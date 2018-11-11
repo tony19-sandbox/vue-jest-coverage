@@ -41,7 +41,7 @@ export default {
     unused() {
       // XXX: Intentionally unused to show uncovered line
       // in Vue SFC in Jest output
-      console.log('this is intentionall unused')
+      console.log('this is intentionally unused')
     }
   }
 }
