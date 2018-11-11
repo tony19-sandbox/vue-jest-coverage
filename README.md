@@ -2,4 +2,4 @@
 
 ![screenshot](screenshot2.png)
 
-*Note: `HelloWorld.vue` intentionally has unused line for demo purposes; and `main.js` is excluded from unit tests because it's a bootstrap file.*
+*Note: `HelloWorld.vue` intentionally [has unused line](https://github.com/tony19-sandbox/vue-jest-coverage/blob/aea332f/src/components/HelloWorld.vue#L44) for demo purposes; and `main.js` is [excluded from unit tests](https://github.com/tony19-sandbox/vue-jest-coverage/blob/25a3fd0/jest.config.js#L5) because it's a bootstrap file.*
