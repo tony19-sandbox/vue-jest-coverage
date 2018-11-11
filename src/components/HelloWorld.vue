@@ -36,6 +36,13 @@ export default {
   name: 'HelloWorld',
   props: {
     msg: String
+  },
+  methods: {
+    unused() {
+      // XXX: Intentionally unused to show uncovered line
+      // in Vue SFC in Jest output
+      console.log('this is intentionall unused')
+    }
   }
 }
 </script>
