@@ -12,6 +12,19 @@ export default {
   name: 'app',
   components: {
     HelloWorld
+  },
+  data() {
+    return {
+      num: 1
+    }
+  },
+  mounted() {
+    this.foo()
+  },
+  methods: {
+    foo() {
+      this.num++;
+    }
   }
 }
 </script>
